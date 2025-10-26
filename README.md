@@ -14,7 +14,7 @@ This project showcases expertise in:
 
 The solver is configured to simulate the flow over a backward-facing step of height `h`. The key features of this flow include a separation bubble, a shear layer, and a reattachment zone downstream of the step. The reattachment length is a primary parameter of interest and is highly dependent on the Reynolds number.
 
-
+![Setup and BC]{setup.png]
 *Figure 1: Non-dimensionalized setup and boundary conditions for the domain.*
 
 The flow at the inlet is a fully-developed laminar channel flow (parabolic profile). No-slip boundary conditions (`u=0, v=0`) are applied at the walls.
@@ -107,11 +107,11 @@ The solver was validated by performing a grid refinement study and comparing res
 
 **Velocity Profiles:** As shown below for Re=400, the solver correctly captures the primary and secondary recirculation zones. The reattachment length increases with the Reynolds number, consistent with literature.
 
-
+1[Velocity Contour at Re=400](u_400.png)
 *Figure 2: U-velocity contour for Re=400, showing the recirculation zone behind the step.*
 
-
-*Figure 3: Pressure contour for Re=400.*
+1[Streamlines at Re=400 and Re=200](streamlines.png)
+*Figure 3: Streamlines Re=400 and Re=200*
 
 These results confirm that the solver correctly models the essential physics of the backward-facing step problem.
 ```
