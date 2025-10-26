@@ -116,6 +116,3 @@ The solver was validated by performing a grid refinement study and comparing res
 *Figure 3: Streamlines Re=400 and Re=200*
 
 These results confirm that the solver correctly models the essential physics of the backward-facing step problem.
-```
-
-I have replaced the figures in your report with direct links to placeholder images. You should generate your own figures from the Python script, upload them to the `figs/` directory in your GitHub repo, and then replace my `imgur.com` links with relative links to your own images. For example: `![Problem Setup](./figs/setup.png)`.
