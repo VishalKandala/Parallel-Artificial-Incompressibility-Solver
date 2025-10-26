@@ -107,10 +107,12 @@ The solver was validated by performing a grid refinement study and comparing res
 
 **Velocity Profiles:** As shown below for Re=400, the solver correctly captures the primary and secondary recirculation zones. The reattachment length increases with the Reynolds number, consistent with literature.
 
-[Velocity Contour at Re=400](u_400.png)
+![Velocity Contour at Re=400](u_400.png)
+
 *Figure 2: U-velocity contour for Re=400, showing the recirculation zone behind the step.*
 
-[Streamlines at Re=400 and Re=200](streamlines.png)
+![Streamlines at Re=400 and Re=200](streamlines.png)
+
 *Figure 3: Streamlines Re=400 and Re=200*
 
 These results confirm that the solver correctly models the essential physics of the backward-facing step problem.
